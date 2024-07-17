@@ -1,0 +1,1 @@
+Go to this link https://huggingface.co/anthrapper/stable_diffusion_android/tree/main/onnx and download decoder_quant.ort. After that, put the files here.

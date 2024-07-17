@@ -1,0 +1,8 @@
+To be able to use Text2Image features, create 3 files decoder.tflite, diffusion_model.tflite, text_encoder.tflite from model_builder/sd_text and then create a folder named "v1" and put the files into here.
+
+For v2 model, run "sd2" notebook and place created files into self-created "v2" folder as well.
+
+You may also need to go to this link https://huggingface.co/anthrapper/stable_diffusion_android/tree/main/onnx and download decoder_quant.ort. After that, put it inside two of this folder: 
+
+- /ios/Runner/Resources/T2I/Diffusion/
+- /android/app/src/main/assets/t2i/diffusion/

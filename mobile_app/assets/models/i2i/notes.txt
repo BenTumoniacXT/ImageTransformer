@@ -1,0 +1,20 @@
+Optionally, you can place your customized AST model inside "nst" folder (You need to create this folder manually in here). Depend on model compression technique, backbone type and type of model, you may need to change the name of model with this filename structure:
+
+<backbone_name>_<compression_type>_<model_type>.tflite
+
+IMPORTANT, No upcases letter are allowed!
+
+- backbone_name: Name of the backbone have been used for the model. The source code included with support for MobileNetV2 and InceptionV3.
+
+- compression_type: Type of compression method. Here are some of it name:
+
+    + core: No compression were used
+    + f16: Model have been Quantized in Float16
+    + int8: Model have been Quantized in Integer8
+    + hybrid: Model have been Dynamically Quantized
+
+- model_type: Type of sub-model. There are 2 kind of sub-model, Transformer and Predictor.
+
+For example, for InceptionV3 Transfromer model quantized in Float16, this is the name: inceptionv3_f16_transformer.tflite
+
+For more detail, you can also config 2 files model_core.dart and model_factory.dart inside mobile_app/lib/core/i2i/internal to support more models
