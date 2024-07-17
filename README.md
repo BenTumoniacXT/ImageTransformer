@@ -6,7 +6,7 @@ Image Style Transformer is an Image2Image and Text2Image Style Transfer applicat
 
 <p align="center"><img src="mobile_app/demo.png" /></p>
 
-# Programming languages:
+# Programming languages
 <p align="left"> 
     <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="mobile_app\miscs\lang_icons\python.png" alt="Python" width="40" height="40"/> </a> 
     <a href="https://flutter.dev/" target="_blank" rel="noreferrer"> <img src="mobile_app\miscs\lang_icons\flutter.png" alt="Flutter" width="40" height="40"/> </a> 
@@ -17,10 +17,10 @@ Image Style Transformer is an Image2Image and Text2Image Style Transfer applicat
 - Mobile Application: Flutter with Swift and Java for Platform-specific codebases
 - Model Creation: Python with Tensorflow and ONNX (Models have been distributed through ONNX Runtime and TFLite)
 
-# Model Creation:
+# Model Creation
 In order to generate models, run the selected notebook based on which model you want to create inside folder <i>model_builder</i>. Python 3.9.x or 3.10.x are recommended.
 
-- For Stable Diffusion models, Tensorflow 2.12.x or 2.13.x are required, newer version will not work with the app due to some problems while generating models. You will also need to install keras_cv along it and config the model output directory to put inside . Due to some problems with keras_cv library, this notebook will only work on Linux (WSL is not tested).
+- For Stable Diffusion models, Tensorflow 2.12.x or 2.13.x are required, newer version will not work with the app due to some problems while generating models. You will also need to install keras_cv along it and config the model output directory to put inside . Due to some problems with keras_cv library, this notebook will only work on Linux and Mac (WSL is not tested).
 
 - For Arbitrary Style Transfer, you need to run the notebook on Google Colab due to some code will not work on local machine. This also mean the need to download the model after executing the notebook.
 
