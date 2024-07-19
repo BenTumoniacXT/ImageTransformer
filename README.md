@@ -25,7 +25,7 @@ In order to generate models, run the selected notebook based on which model you 
 - For Arbitrary Style Transfer, you need to run the notebook on Google Colab due to some code will not work on local machine. This also mean the need to download the model after executing the notebook.
 
 # Compile and Run Mobile Application
-Before you compile, your target Android devices must have at least 2GB for Image2Image Style Transfer, 6GB for Text2Image Style Transfer with v1 model (for v2 model, 12GB is required). To compile the application, you need to have Flutter SDK installed on your machine with Android SDK for Android devices or iOS SDK for iPhone devices. After that, make sure you have every assets required inside these folder before compiling this project:
+Before you compile, your target Android devices must have at least 2GB of RAM for Image2Image Style Transfer, 6GB for Text2Image Style Transfer with v1 model (for v2 model, 12GB is required). To compile the application, you need to have Flutter SDK installed on your machine with Android SDK for Android devices or iOS SDK for iPhone devices. After that, make sure you have every assets required inside these folder before compiling this project:
 
 - <i>mobile_app/assets/models</i> 
 - <i>mobile_app/android/app/src/main/assets/t2i/diffusion/</i> 
