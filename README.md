@@ -6,6 +6,17 @@ Image Style Transformer is an Image2Image and Text2Image Style Transfer applicat
 
 <p align="center"><img src="mobile_app/demo.png" /></p>
 
+# Changelog
+
+<h3><b>New features and changes:</b></h3>
+
+- Now you can choose which model version to use in Text2Image Style Transfer
+- You can also choose to see Diffusion progress instead of Diffusion log (This will make diffusion process take more time to run)
+
+<h3><b>Bugfixes:</b></h3>
+
+- Apparently nothing have changed
+
 # Programming languages
 <p align="left"> 
     <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="mobile_app\miscs\lang_icons\python.png" alt="Python" width="40" height="40"/> </a> 
