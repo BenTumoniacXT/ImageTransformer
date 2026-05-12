@@ -1,8 +1,8 @@
 # Image Style Transformer - An Image Style Transfer Application for Mobile Devices
 
-<h2><i><b>Attention: Due to recent changes with Android API, this project will be reworked. The native codebase will be switched to Kotlin for better future support</b></i></h2>
+<h2><i><b>Attention: This project is now depercated and will no longer receive any update in the future</b></i></h2>
 
-<h3><b>Updated version: 0.3.3 (Beta 3.3) - July 2024</b></h3>
+<h3><b>Version: 0.3.3 (Beta 3.3) - July 2024</b></h3>
 
 Image Style Transformer is an Image2Image and Text2Image Style Transfer application for Mobile Devices. This application allow you to create an artistic image from a content image and a style image or from a text prompt. By using Arbitrary Style Transfer and Stable Diffusion with Quantization, we were be able to bring to model down to consumer mobile devices with compatibility for iOS and Android.
 
